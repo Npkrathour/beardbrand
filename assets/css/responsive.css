@@ -1,0 +1,238 @@
+@media screen and (max-width: 1600px) {
+  p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .px-lg {
+    padding: 0 50px;
+  }
+  .blg-section {
+    & .blog-box {
+      padding: 0 0px;
+    }
+  }
+  .blg-section {
+    & .container-fluid {
+      padding: 12px 20px;
+    }
+  }
+  .fw-bolder {
+    font-weight: bolder !important;
+    font-size: 13px;
+  }
+  .fancybox-content {
+    max-width: 50%;
+    width: 100%;
+    padding: 35px;
+  }
+  .main-blog {
+    & .blog-details a {
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+}
+@media screen and (max-width: 1180px) {
+  .home-page {
+    background-image: linear-gradient(1deg, rgb(3 3 3 / 63%), rgb(0 0 0 / 53%)),
+      url(../images/P4160105_final_desktop_hero.webp);
+    height: 70svh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .px-lg {
+    padding: 0 18px;
+  }
+  .dont-let {
+    & .beard-img {
+      width: 100%;
+      height: 500px;
+    }
+  }
+  .blg-section {
+    & {
+      background-color: var(--bgColor);
+      padding: 15px;
+      border-top: 1px solid var(--bgColor);
+    }
+  }
+  .blg-section {
+    & h1 {
+      font-size: 60px;
+    }
+  }
+  .services-section {
+    & .service-content {
+      padding: 0px 30px;
+    }
+  }
+  .product-main-details {
+    & h2 {
+      font-size: 28px;
+    }
+  }
+  .product-main-details {
+    & button {
+      font-size: 15px !important;
+      padding: 10px 20px !important;
+    }
+  }
+  .contact-section {
+    h1 {
+      font-size: 70px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .alliance-section {
+    & .image {
+      width: 100%;
+      height: 50svh;
+    }
+  }
+  .take-quiz {
+    & .image {
+      width: 100%;
+      height: 50svh;
+    }
+  }
+  .materials-matter {
+    & .image {
+      width: 100%;
+      height: 50svh;
+    }
+  }
+  .take-quiz {
+    & h1 {
+      font-size: 40px;
+    }
+  }
+  .about-section {
+    & h1 {
+      font-size: 40px;
+    }
+  }
+
+  .take-quiz {
+    & .content-quiz {
+      padding: 50px 0;
+    }
+  }
+  .materials-matter {
+    & h2 {
+      font-size: 25px;
+    }
+  }
+  .products-ethos {
+    & h1 {
+      font-size: 40px;
+    }
+  }
+  .blg-section {
+    & h1 {
+      font-size: 40px;
+    }
+  }
+  .services-section {
+    & .service-content h1 {
+      font-size: 39px;
+    }
+  }
+  .services-section {
+    a {
+      font-size: 14px;
+    }
+  }
+  .contact-section {
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .navbar-collapse {
+    background-color: #f3efe2;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+    z-index: 9;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .home-page {
+    background-image: linear-gradient(1deg, rgb(3 3 3 / 63%), rgb(0 0 0 / 53%)),
+      url(../images/P4160105_final_desktop_hero.webp);
+    height: 70svh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .px-lg {
+    padding: 0 10px;
+  }
+  .best-seller {
+    & .swiper-slide .slider-image {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  .dont-let {
+    & h2 {
+      font-size: 25px;
+    }
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .overlay h1 {
+    font-size: 30px;
+  }
+  .about-section {
+    & h1 {
+      font-size: 30px;
+    }
+  }
+  .take-quiz {
+    & h1 {
+      font-size: 30px;
+    }
+  }
+  .products-ethos {
+    & h1 {
+      font-size: 30px;
+    }
+  }
+  .blg-section {
+    & h1 {
+      font-size: 30px;
+    }
+  }
+  .services-section {
+    & .service-content {
+      margin-top: 5%;
+    }
+  }
+  .fancybox-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 40px;
+  }
+  .newsletter-section {
+    & p {
+      text-align: justify;
+    }
+  }
+}
